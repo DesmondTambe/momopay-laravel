@@ -19,7 +19,7 @@
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
           <div class="navbar-nav">
             <a class="nav-item nav-link active" href="/">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Shop</a>
+            <a class="nav-item nav-link" href="/products">Products</a>
             <a class="nav-item nav-link" href="#">Contact</a>
             <a class="nav-item nav-link" href="/about">About</a>
           </div>
@@ -29,15 +29,8 @@
           </div>
         </div>
       </nav>
-      <div class="jumbotron">
-        <div class="jumbo-content">
-          <h1>Intergrating MoMoPay</h1>
-          <p>Simple intergration of MTN momo payment method in laravel app</p>
-          <button class="btn btn-primary">Get Started</button>
-        </div>
-    </div>
 
-      <div class="container">
+      <div>
           @yield('content')
       </div>
 
@@ -54,8 +47,8 @@
       </footer>
     <!-- Footer -->
 
-    {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script>
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> --}}
+    {{-- <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.bundle.min.js"></script> --}}
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script> 
     <script src="{{asset('bootstrap/js/bootstrap.min.js')}}"></script>
 </body>
 </html>

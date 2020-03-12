@@ -15,4 +15,9 @@ class PagesController extends Controller
     public function about() {
         return view('pages.about');
     }
+
+    // Shop page
+    public function shop() {
+        return view('pages.shop');
+    }
 }
