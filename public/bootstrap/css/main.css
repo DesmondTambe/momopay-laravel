@@ -1,0 +1,24 @@
+/* NavBar */
+#nav-btn {
+    float: right;
+}
+
+/* Home page */
+.jumbotron {
+    text-align: center;
+    background-color: rgb(221, 221, 30);
+    height: 100vh;
+}
+
+.jumbo-content {
+    margin-top: 10%;
+} 
+
+footer {
+    text-align: center;
+    color: #fff;
+}
+
+.my-auto {
+    margin-left: 70px;
+}
